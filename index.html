@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calm Learning Space</title>
+    <meta name="description"
+        content="A structured, supportive space offering tools and insights to manage learning overwhelm.">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css?v=typography">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7BJNGQ9924"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7BJNGQ9924');
+    </script>
+</head>
+
+<body>
+    <!-- SVG Defs for primary gradient on icons -->
+    <svg width="0" height="0" style="position: absolute; pointer-events: none;">
+        <defs>
+            <linearGradient id="coral-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FF7A59" stop-opacity="0.68" />
+                <stop offset="100%" stop-color="#FF4F7B" stop-opacity="0.68" />
+            </linearGradient>
+        </defs>
+    </svg>
+    <!-- Animated Background Elements -->
+    <div class="animated-background">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+        <div class="orb orb-5"></div>
+        <div class="orb orb-6"></div>
+        <div class="sparkle sparkle-1"></div>
+        <div class="sparkle sparkle-2"></div>
+        <div class="sparkle sparkle-3"></div>
+        <div class="sparkle sparkle-4"></div>
+        <div class="sparkle sparkle-5"></div>
+        <div class="sparkle sparkle-6"></div>
+        <div class="glitter glitter-1"></div>
+        <div class="glitter glitter-2"></div>
+        <div class="glitter glitter-3"></div>
+        <div class="glitter glitter-4"></div>
+        <div class="glitter glitter-5"></div>
+        <div class="glitter glitter-6"></div>
+        <div class="glitter glitter-7"></div>
+        <div class="glitter glitter-8"></div>
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+        <div class="cloud cloud-4"></div>
+    </div>
+
+    <main class="page-container">
+
+        <!-- Welcome Section -->
+        <header class="welcome-card card fade-in">
+            <h1>Welcome</h1>
+            <p>Learning can sometimes feel overwhelming.</p>
+            <p>This space is here to support you.</p>
+            <p>Explore the sections in any order and move at your own pace.</p>
+            <p>Take what helps and leave the rest.</p>
+        </header>
+
+        <!-- Available Supports -->
+        <section class="supports-section fade-in delay-1">
+            <div class="supports-intro">
+                <h2>Available Supports</h2>
+            </div>
+
+            <div class="nav-card-grid">
+                <article class="nav-card" onclick="document.querySelector('[data-tab=\'understanding\']').click()">
+                    <div class="card-icon accent-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z">
+                            </path>
+                            <path
+                                d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z">
+                            </path>
+                            <path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path>
+                            <path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path>
+                            <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path>
+                            <path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path>
+                            <path d="M19.938 10.5a4 4 0 0 1 .585.396"></path>
+                            <path d="M6 18a4 4 0 0 1-1.967-.516"></path>
+                            <path d="M19.967 17.484A4 4 0 0 1 18 18"></path>
+                        </svg>
+                    </div>
+                    <h3>Understanding How You Learn</h3>
+                    <p>Short insights into how learning works and why it can feel overwhelming.</p>
+                </article>
+                <article class="nav-card" onclick="document.querySelector('[data-tab=\'calm\']').click()">
+                    <div class="card-icon accent-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3 C17 8 17 15 12 15 C7 15 7 8 12 3 Z" />
+                            <path d="M10.5 14.5 C5 14.5 3 8 5 6 C6 8.5 8 11.5 9.5 13" />
+                            <path d="M13.5 14.5 C19 14.5 21 8 19 6 C18 8.5 16 11.5 14.5 13" />
+                            <path d="M9 14.8 C4 15 1 11 2 9 C3.5 11 5.5 12.5 7.5 13.5" />
+                            <path d="M15 14.8 C20 15 23 11 22 9 C20.5 11 18.5 12.5 16.5 13.5" />
+                            <path d="M11 15 C7 15.5 4 17 3 18 C6 19.5 9 18.5 10.5 17" />
+                            <path d="M13 15 C17 15.5 20 17 21 18 C18 19.5 15 18.5 13.5 17" />
+                            <path d="M11 15.5 L12 20 L13 15.5 Z" />
+                        </svg>
+                    </div>
+                    <h3>Calm Corner</h3>
+                    <p>Tools to pause, breathe, and regulate stress.</p>
+                </article>
+                <article class="nav-card" onclick="document.querySelector('[data-tab=\'manageable\']').click()">
+                    <div class="card-icon accent-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M10 6h11"></path>
+                            <path d="M10 12h11"></path>
+                            <path d="M10 18h11"></path>
+                            <path d="M3 6l1.5 1.5 2.5-2.5"></path>
+                            <path d="M3 12l1.5 1.5 2.5-2.5"></path>
+                            <path d="M3 18l1.5 1.5 2.5-2.5"></path>
+                        </svg>
+                    </div>
+                    <h3>Making Learning Feel Manageable</h3>
+                    <p>Practical strategies for breaking down tasks into smaller steps.</p>
+                </article>
+            </div>
+
+            <!-- Tabs Navigation -->
+            <div class="tabs-container">
+                <button class="tab-button active" data-tab="understanding" aria-selected="true" role="tab">Understanding
+                    How You Learn</button>
+                <button class="tab-button" data-tab="calm" aria-selected="false" role="tab">Calm Corner</button>
+                <button class="tab-button" data-tab="manageable" aria-selected="false" role="tab">Making Learning Feel
+                    Manageable</button>
+            </div>
+
+            <!-- Tabs Content -->
+            <div class="tab-content-wrapper">
+
+                <!-- Tab 1: Understanding How You Learn -->
+                <div class="tab-panel active" id="understanding" role="tabpanel">
+                    <div class="card-grid">
+                        <article class="card item-card">
+                            <h3>Why Learning Can Feel Overwhelming</h3>
+                            <p>Learning engages attention, memory, comprehension, and problem-solving at the same
+                                time.<br>
+                                When too much information arrives too quickly, the brain struggles to process it
+                                efficiently.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Feeling overwhelmed is not a sign of inability. It is a natural
+                                response to cognitive overload.<br>
+                                Breaking learning into smaller pieces helps the brain process information more
+                                effectively.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Why Repetition Helps Learning Stick</h3>
+                            <p>Memory strengthens through repeated exposure and retrieval.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Reviewing information multiple times helps neural pathways
+                                become more stable.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Why Visual Clutter Affects Focus</h3>
+                            <p>Busy environments create extra sensory input that competes for attention.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Reducing visual distractions can free up mental resources for
+                                learning.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Why Long Blocks of Text Increase Cognitive Load</h3>
+                            <p>Dense paragraphs require the brain to process too much information at once.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Breaking text into smaller chunks improves comprehension.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Why Instructions Can Feel Hard to Follow</h3>
+                            <p>Instructions often contain multiple steps and assumptions about prior knowledge.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Breaking instructions into smaller steps reduces confusion.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Why Multitasking Slows Learning</h3>
+                            <p>The brain cannot truly focus on two complex tasks simultaneously.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Focusing on one task improves understanding and progress.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Why Mental Fatigue Happens During Learning</h3>
+                            <p>Learning requires sustained attention and effort.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Short breaks restore focus and help performance.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>When the Environment Has Too Many Distractions</h3>
+                            <p>Notifications and background activity interrupt attention.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Creating a calmer environment improves focus.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Signs of Cognitive Overload</h3>
+                            <p>Common signs include difficulty concentrating, confusion, and rereading material
+                                repeatedly.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Recognizing overload early helps you adjust your approach.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Calm Corner -->
+                <div class="tab-panel" id="calm" role="tabpanel">
+                    <div class="card-grid">
+                        <article class="card item-card calm-intro">
+                            <h3>Feeling Overwhelmed?</h3>
+                            <p>Take a moment to pause and breathe.</p>
+                            <p style="margin-bottom: 0;">Use these techniques as long as you need to help restore a
+                                sense
+                                of calm.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Guided Breathing</h3>
+                            <p>Follow the guide below.<br>
+                                Breathe in as the visual expands and out as it contracts.</p>
+                            <div class="breathing-circle-container" style="margin-top: 16px;">
+                                <div class="breathing-circle"></div>
+                            </div>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Nature Reset</h3>
+                            <p>Sometimes a quiet moment in nature can help the mind settle.</p>
+                            <p style="margin-bottom: 24px;">You might pause here for a minute or two before returning to
+                                your work.</p>
+                            <div class="video-container">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/lFcSrYw-ARY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Grounding Exercise</h3>
+                            <p style="margin-bottom: 0;"><strong>5–4–3–2–1 Grounding Technique</strong><br><br>
+                                Try noticing:<br>
+                                5 things you can see<br>
+                                4 things you can touch<br>
+                                3 things you can hear<br>
+                                2 things you can smell<br>
+                                1 thing you can taste</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Self-Regulation Strategies</h3>
+                            <p style="margin-bottom: 0;">Small physical adjustments can sometimes help the body
+                                settle.<br><br>
+                                Examples:<br>
+                                • relaxing your shoulders<br>
+                                • unclenching your jaw<br>
+                                • taking three slow breaths<br>
+                                • stretching or changing posture<br>
+                                • stepping away for a short break<br>
+                                • reducing nearby distractions</p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Making Learning Feel Manageable -->
+                <div class="tab-panel" id="manageable" role="tabpanel">
+                    <div class="card-grid">
+                        <article class="card item-card">
+                            <h3>Finding a Starting Point</h3>
+                            <p>Start with the smallest possible step, even if it is simply opening the instructions.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Starting reduces hesitation and builds momentum.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Breaking Tasks Into Smaller Steps</h3>
+                            <p>Large tasks become manageable when divided into smaller actions.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Completing small steps creates a sense of progress.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Using AI to Break Down Complex Instructions</h3>
+                            <p>AI tools can help simplify complicated instructions into clear steps.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Example prompt:
+                            </h4>
+                            <p style="font-style: italic; margin-bottom: 0;">"Can you break these instructions into
+                                clear step-by-step actions?"</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Using AI to Rephrase Instructions</h3>
+                            <p>AI can rewrite dense instructions in simpler language.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Example prompt:
+                            </h4>
+                            <p style="font-style: italic; margin-bottom: 0;">"Can you rephrase these instructions in
+                                simpler language?"</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>Returning After a Short Break</h3>
+                            <p>Stepping away briefly can help reset focus.</p>
+                            <h4 style="margin-top: 12px; font-size: 14px; color: var(--primary-accent);">Why This
+                                Matters
+                            </h4>
+                            <p style="margin-bottom: 0;">Breaks allow the brain to process information in the
+                                background.</p>
+                        </article>
+
+                        <article class="card item-card">
+                            <h3>When You Feel Stuck</h3>
+                            <p style="margin-bottom: 0;">Feeling stuck is a normal part of learning.<br><br>
+                                Try:<br>
+                                • rereading instructions slowly<br>
+                                • asking a teacher or peer for clarification<br>
+                                • breaking the task into smaller steps<br>
+                                • using AI tools to clarify confusion</p>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Closing Statement -->
+        <footer class="closing-statement fade-in delay-2">
+            <p>
+                <span class="closing-main">Learning takes time.</span><br>
+                <span class="closing-sub">Small steps still count.</span>
+            </p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
